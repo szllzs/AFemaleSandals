@@ -31,7 +31,11 @@ namespace MoppetSandal
             sourcesMachines = GetVirtralSystemNames(@"f:\myxp");
             ExecuteDelete();
             ExecuteStart();
-            ExecuteCopy();
+            for (int i = 0; i < 3; i++)
+            {
+                ExecuteCopy();
+            }
+           
         }
 
         private static void ExecuteCopy()
