@@ -35,7 +35,6 @@ namespace MoppetSandal
             {
                 ExecuteCopy();
             }
-           
         }
 
         private static void ExecuteCopy()
